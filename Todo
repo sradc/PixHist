@@ -1,0 +1,9 @@
+add a few more generators
+auto find interesting images
+
+github
+pypi
+
+Tests:
+- Cover more of the functions.
+- Add tests that include make_xy_proportional=True
