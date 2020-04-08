@@ -1,7 +1,7 @@
 # PixHist
 
 
-[![](https://github.com/sradc/PixHist/workflows/Python%20package/badge.svg)](https://github.com/sradc/magic-timer/commits/)
+[![](https://github.com/sradc/PixHist/workflows/Python%20package/badge.svg)](https://github.com/sradc/PixHist/commits/)
 
 
 `pip install pixhist`
