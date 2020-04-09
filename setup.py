@@ -1,8 +1,13 @@
 import setuptools
+from pathlib import Path
 
-with open("README.md", "r") as f:
+p = Path(__file__).parents[0]
+
+P_README = p / "README.md"
+with open(P_README, "r") as f:
     LONG_DESCRIPTION = f.read()
 
+P_VERSION = p / "VERSION"
 with open("VERSION", "r") as f:
     VERSION = f.read()
 
@@ -14,7 +19,7 @@ setuptools.setup(
     description="Pixel histograms.",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/sradc/PixHist",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
